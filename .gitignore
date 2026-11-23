@@ -50,6 +50,7 @@ coverage.xml
 *.lcov
 .hypothesis/
 .pytest_cache/
+pytest-cache-files-*/
 cover/
 
 # Translations
@@ -221,3 +222,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project specific
+example-data
+lecture-materials
+.idea/
+*.csv.gz
+data/raw/*
+!data/raw/.gitkeep
+data/cache/
+.env.*
+!.env.example
